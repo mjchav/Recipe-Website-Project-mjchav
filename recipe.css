@@ -1,0 +1,136 @@
+*{
+  scroll-behavior: smooth;
+}
+body {
+    background: white;
+  }
+  p {
+    color: black;
+  }
+  h1 {
+    font-family: "Garamond";
+    font-weight: 100;
+  }
+  h2 {
+    font-family: "Garamond";
+    font-weight: 100;
+  }
+  h3 {
+    font-weight: 100;
+  }
+  nav {
+    background-color: white;
+    position: fixed;
+    top: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+  .navbutton {
+    background-color: white;
+    border: 0;
+    font-family: "Garamond";
+    font-size:15px;
+    height: 20px;
+    width: 60px;
+    padding: 0px;
+    position:relative;
+    display:inline-block;
+  }
+  .navbutton:hover {
+    color: coral;
+  }
+  .top {
+    background-color: white;
+    text-align: center;
+    position: fixed;
+    margin: 0px;
+    padding-top: 20px;
+    font-size: 15px;
+    width: 100%;
+    top: 0;
+  }
+  .bottom{
+    margin-top: 50px;
+    width: 80%;
+    padding: 10px 10%;
+    display: flex;
+    justify-content: center;
+  }
+  .bottom div{
+    text-align: center;
+    flex-grow: 2;
+  }
+  .bottom div h2{
+    font-weight: 300;
+    margin: 20px;
+  }
+  .about a{
+    display: block;
+    margin-bottom: 14px;
+  }
+  .social i{
+    font-size: 17px;
+    margin: 5px;
+    margin-top: 0;
+    cursor: pointer;
+  }
+  .social i:hover{
+    color: coral;
+  }
+  .subtitle{
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 70px;
+  }
+  a {
+    font-family: "Garamond";
+    font-weight: 100;
+    color: black;
+    text-decoration: 0;
+  }
+  a:hover {
+    color: coral;
+  }
+  button:hover {
+    color: coral
+  }
+  .foodpic{
+    display: block;
+    width: 65%;
+    height: auto;
+    float: center;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .ingredients{
+    width: 90%;
+    float: right;
+    font-family: "Garamond";
+    font-size: 20px;
+  }
+  .instructions{
+    width: 90%;
+    float: right;
+    font-family: "Garamond";
+    font-size: 20px;
+  }
+  @media screen and (max-width: 1000px) {
+    .foodpic{
+      width: 80%;
+      float: center;
+    }
+    .subtitle{
+      font-size: 15px;
+    }
+    .ingredients{
+      width: 95%;
+      font-size: 18px;
+    }
+    .instructions{
+      width: 95%;
+      font-size: 18px;
+
+    }
+  }

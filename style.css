@@ -1,0 +1,189 @@
+*{
+  scroll-behavior: smooth;
+}
+body {
+    background: white;
+  }
+  h1 {
+    font-family: "Garamond";
+    font-weight: 100;
+  }
+  h2 {
+    font-family: "Garamond";
+    font-weight: 100;
+  }
+  h3 {
+    font-family: "Garamond";
+    font-weight: 100;
+  }
+  a {
+    font-family: "Garamond";
+    font-weight: 100;
+    color: black;
+    text-decoration: 0;
+  }
+  a:hover {
+    color: coral;
+  }
+  nav {
+    background-color: white;
+    position: fixed;
+    top: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+  .navbutton {
+    background-color: white;
+    border: 0;
+    font-family: "Garamond";
+    font-size:15px;
+    height: 20px;
+    width: 60px;
+    padding: 0px;
+    position:relative;
+    display:inline-block;
+  }
+  .navbutton:hover {
+    color: coral;
+  }
+  .top {
+    background-color: white;
+    text-align: center;
+    position: fixed;
+    margin: 0px;
+    padding-top: 20px;
+    font-size: 15px;
+    width: 100%;
+    top: 0;
+  }
+  .bottom{
+    margin-top: 50px;
+    width: 80%;
+    padding: 10px 10%;
+    display: flex;
+    justify-content: center;
+  }
+  .bottom div{
+    text-align: center;
+    flex-grow: 2;
+  }
+  .bottom div h2{
+    font-weight: 300;
+    margin: 20px;
+  }
+  .about a{
+    display: block;
+    margin-bottom: 14px;
+  }
+  .social i{
+    font-size: 17px;
+    margin: 5px;
+    margin-top: 0;
+    cursor: pointer;
+  }
+  .social i:hover{
+    color: coral;
+  }
+  .title{
+    background-color: white;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 70px;
+    padding-left:15px;
+  }
+  .subtitle {
+    background-color: white;
+    font-size: 18px;
+    text-align: left;
+    padding-top: 0px;
+    border: 4px;
+    border-color: black;
+  }
+  .contentbox {
+    background-color: white;
+    padding-left: 20px;
+    float: center;
+  }
+  .content{
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    float: left;
+  }
+  #pancakepic {
+    width: 100%;
+    min-height: 300px;
+    max-height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: 100% 20%;
+    margin-bottom: 15px;
+  }
+
+  #ricepic {
+    width: 100%;
+    min-height: 300px;
+    max-height: 300px ;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: 0% 80%;
+  }
+  .foodpic {
+    width: 100%;
+    min-height: 300px;
+    max-height: 300px ;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  .recipebox {
+    font-family: "Garamond";
+    margin: 5px;
+    width: 32.33%;
+    float: left;
+    text-align: center;
+    height: 380px;
+    background-color: #ebebeb;
+    border-radius: 20px;
+    font-size: 25px;
+  }
+  .emptybox {
+    margin-top: 90px;
+    width: 100%;
+    float: left;
+    height: 0px;
+    background-color: white;
+  }
+  @media screen and (max-width: 1200px) {
+    .recipebox {
+      width: 48%;
+      float: center;
+    }
+    .recipebuttonleft {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  @media screen and (max-width: 520px) {
+    .recipebox {
+      width: 100%;
+      float: center;
+    }
+    .recipebuttonleft {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  .row {
+    content:"";
+    display: table;
+    clear: both;
+  }
+  
+  
+  
